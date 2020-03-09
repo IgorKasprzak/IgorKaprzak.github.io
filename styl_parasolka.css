@@ -1,0 +1,148 @@
+body {
+  background: linear-gradient(to bottom, #1e5799 0%,#78daf6 50%,#1e5799 100%);
+  margin: 0;
+}
+
+img {
+  border-radius: 25px;
+  margin: 10px;
+}
+
+h1 {
+  font-size: 72;
+  margin: 0;
+}
+
+h2 {
+  font-size: 42;
+}
+
+h4, form, p {
+  margin: 10px;
+}
+
+.wiersz:nth-child(1n) {
+  border: 1px solid gray;
+  margin: 10px;
+  background: linear-gradient(to bottom, #49c0f0 0%,#2cafe3 100%);
+  background-color: #f00;
+  border-radius: 25px;
+}
+
+.wiersz:nth-child(2n) {
+  border: 1px solid gray;
+  margin: 10px;
+  background: linear-gradient(to bottom, #b2e1ff 0%,#66b6fc 100%);
+  background-color: #0f0;
+  border-radius: 25px;
+}
+
+.parasolSklep {
+  width: 200px;
+  height: 200px
+}
+
+.box {
+  background: linear-gradient(to bottom, #9ef 0%,#ef9076 10%,#6dfa72 100%);
+  border-radius: 25px;
+  width: 80%;
+  height: 750px;
+  margin: 50px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.boxSmall {
+  width: 600px;
+  height: 550px;
+  position: relative;
+}
+
+.sklep {
+  width: 50%;
+  float: left;
+  border-radius: 25px;
+}
+
+.parasolTransparentny {
+  position: absolute;
+  margin: 0;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.parasolTransparentny:hover {
+  opacity: 1;
+  z-index: 2;
+}
+
+#header {
+  background-color: DeepSkyBlue;
+  background: linear-gradient(to bottom, #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%);
+  width: 100%;
+  height: 11%;
+  text-align: center;
+}
+
+#panel1 {
+  background-color: gray;
+  background: linear-gradient(to bottom, #1e5799 0%,#7db9e8 10%,#7db9e8 100%);
+  width: 17%;
+  height: 80%;
+  float: left;
+}
+
+#panel2 {
+  background-color: SteelBlue;
+  width: 30%;
+  height: 80%;
+  float: left;
+  text-align: center;
+}
+
+#panel3 {
+  background-color: gray;  
+  background: linear-gradient(to bottom, #1e5799 0%,#7db9e8 10%,#7db9e8 100%);
+  width: 30%;
+  height: 80%;
+  float: left;
+  text-align: center;
+}
+
+#panel4 {
+  background-color: SteelBlue;
+  width: 23%;
+  height: 89%;
+  float: right;
+  text-align: center;
+}
+
+#footer {
+  background-color: DeepSkyBlue;
+  background: linear-gradient(to bottom, #e4f5fc 0%,#bfe8f9 40%,#9fd8ef 61%,#2ab0ed 100%);
+  width: 77%;
+  height: 9%;
+  float: left;
+  text-align: center;
+}
+
+#parasol1 {
+  top: 50px;
+  left: 50px;
+}
+
+#parasol2 {
+  top: 150px;
+  left: 150px;
+}
+
+#parasol3 {
+  top: 250px;
+  left: 250px;
+}
+
+#parasol4 {
+  top: 350px;
+  left: 350px;
+}
+
